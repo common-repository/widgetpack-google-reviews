@@ -1,0 +1,47 @@
+#wpcontent {
+  background-color:#fafafa;
+}
+
+#wpgrev-wrap input[type="checkbox"] {
+  vertical-align: baseline;
+}
+
+#wpac-setup input[type="checkbox"]:before,
+#wpac-setup input[type="radio"]:before,
+#wpgrev-wrap input[type="checkbox"]:before,
+#wpgrev-wrap input[type="radio"]:before {
+  margin: 1px;
+  width: 100%;
+  height: auto;
+}
+
+#wpgrev-wrap .wpgrev-exported ,
+#wpgrev-wrap .wpgrev-imported {
+  color: #4caf50;
+}
+
+#wpgrev-tabs {
+  text-align: right;
+}
+
+#wpgrev-tabs li {
+  display: inline-block;
+  color: #333;
+  padding: 0.25em;
+  height: 16px;
+  cursor: pointer;
+  margin-right: 8px;
+  text-align: right;
+}
+
+#wpgrev-tabs li.selected {
+  font-weight: bold;
+}
+
+#wpac-admin .sidebar, #wpac-admin .navbar {
+  display: none;
+}
+
+#wpgrev-plugin-pane .wpgrev-enabled-text {
+  color: #4caf50;
+}

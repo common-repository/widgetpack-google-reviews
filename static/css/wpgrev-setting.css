@@ -1,0 +1,164 @@
+body {
+  font-size: 14px;
+  background-color: #fafafa;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.form-group input[type="checkbox"] {
+  vertical-align: baseline;
+}
+
+.form-group input[type="checkbox"]:checked:before {
+  top: 2px;
+  left: 10px;
+}
+
+.form {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+.form400 {
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.wpgrev-setting {
+  position: relative;
+  margin: 20px 0 0;
+}
+
+.nav-tabs {
+  margin: 13px 0 0;
+}
+
+.version {
+  position: absolute;
+  top: 6px;
+  right: 16px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 20px 0 0;
+  padding: 6px 10px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #999;
+}
+
+.twitter > iframe {
+  vertical-align: bottom !important;
+}
+
+.googleplus > div {
+  vertical-align: bottom !important;
+}
+
+#greview-install .form400 {
+  margin-top: 0;
+  min-height: 378px;
+}
+
+#greview-install .wp-places,
+#greview-install .wp-reviews {
+  max-height: 200px;
+  overflow: auto;
+  border: 1px solid #f3f3f3;
+}
+
+#greview-install .wp-gri .wp-place-info {
+  margin: 0 !important;
+  padding: 6px !important;
+}
+
+#greview-install .wp-place-info img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+#greview-install .wp-place-info .media-body {
+  overflow: hidden;
+}
+
+#greview-install .wp-place-info .media-heading {
+  font-size: 12px;
+}
+
+#greview-install .wp-place-info .wp-grating {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#greview-install .wp-place-info svg {
+  width: 12px;
+  height: 12px;
+}
+
+#greview-install .wp-place-info small {
+  display: block;
+  font-size: 11px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#greview-install .modal-dialog,
+#greview-install .wp-greview-install {
+  display: none;
+}
+
+#wpgrev-shortcode {
+  width: 100%;
+  overflow: auto;
+  border: 0;
+  outline: 0;
+  min-height: 184px;
+  padding: 0;
+  color: #555;
+  font-size: 13px;
+  resize: none;
+  background-color: #fff;
+  box-shadow: none !important;
+}
+
+.wpgrev-tooltip .wpgrev-text {
+  padding: 10px;
+}
+
+.wpgrev-options-toggle {
+  padding: 10px;
+  margin: 10px 0 0;
+  cursor: pointer;
+  border: 1px solid #dbdbdb;
+  background: #eee url('/wp-content/plugins/widgetpack-google-reviews/static/img/button-down-black.svg') no-repeat right;
+}
+
+.wpgrev-options {
+  padding: 0px 4px;
+}
+
+.wpgrev-disabled label,
+.wpgrev-disabled small {
+  opacity: .7;
+}
+
+.wpgrev-pro {
+  color: #fff;
+  padding: 6px;
+  border-radius: 3px;
+  background: #00bf54;
+}
+
+.wpgrev-pro a {
+  color: #fff;
+  text-decoration: underline;
+}
